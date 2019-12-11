@@ -2,8 +2,9 @@
     "name": "myapp",
     "description": "a really cool app",
     "version": "1.0.0",
+    "private": true,
     "engines": {
-        "node": "10.16.3"
+        "node": "12.13.1"
     },
     "dependencies": {
         "babel-loader": "^8.0.6",
@@ -20,6 +21,7 @@
         "redux-logger": "^3.0.6",
         "redux-persist": "^6.0.0",
         "reselect": "^4.0.0",
+        "styled-components": "^4.4.1",
         "webpack-hot-client": "^4.1.2"
     },
     "scripts": {
